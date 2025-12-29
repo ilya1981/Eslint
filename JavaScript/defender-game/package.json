@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/ilya1981/defender-game#readme",
+  "bugs": {
+    "url": "https://github.com/ilya1981/defender-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilya1981/defender-game.git"
+  },
+  "license": "ISC",
+  "author": "Ilya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5"
+  },
+  "dependencies": {
+    "core-js": "^3.47.0"
+  }
+}
